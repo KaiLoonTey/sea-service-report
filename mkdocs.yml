@@ -1,0 +1,46 @@
+site_name: "SEA Service Report"
+site_description: "Support Team Report"
+
+
+# --- THIS IS THE MAGIC FIX FOR OFFLINE SHARING ---
+
+
+theme:
+  name: "material"
+  logo: "assets/logo.png"
+  favicon: "assets/logo.png"
+  features:
+    - "navigation.sections"   # This creates the bold section dividers
+    - "navigation.expand"     # This allows sections to be collapsible dropdowns
+    - "search.suggest"
+    - "search.highlight"
+    - "content.code.copy"
+    # We removed "navigation.tabs" to move the menu from the top to the left sidebar
+  
+
+
+extra_css:
+  - "stylesheets/custom.css"
+
+plugins:
+  - search:
+      separator: '[\s\-_.@<>]+'
+  
+# Add your custom JS
+extra_javascript:
+  - javascripts/extra.js
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - SEA Service Report:
+    - Overview: index.md
+       
+        
+           
