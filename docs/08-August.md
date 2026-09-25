@@ -1,3 +1,7 @@
+---
+source_url: https://kailoontey.github.io/sea-service-report/08-August/
+---
+
 # SEA Service & Success Team Report: August 2026 Summary
 
 ## 1. Customer Support Overview

@@ -1,3 +1,7 @@
+---
+source_url: https://kailoontey.github.io/sea-service-report/01-January/
+---
+
 # SEA Service Team Report: January 2026 Summary
 
 ## Key Performance Indicators
